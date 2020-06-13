@@ -1,1 +1,1 @@
-"# репозиторий для решения работ по курсу Подготовка к собеседованию" 
+# This repository was created for different tasks on the course "Preparation to interview"
