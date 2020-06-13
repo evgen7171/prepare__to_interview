@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .table {
+        border: 1px solid #000;
+        border-collapse: collapse;
+    }
+
+    .table td {
+        text-align: center;
+        height: 30px;
+        width: 30px;
+        border: 1px solid #000;
+    }
+
+    .blue {
+        background-color: blue;
+    }
+</style>
+<body>
+<h3>Пример использования обьединения строк и столбцов</h3>
+<table class="table">
+    <tr>
+        <td></td>
+        <td>а</td>
+        <td>б</td>
+        <td>в</td>
+        <td>г</td>
+        <td>д</td>
+        <td>е</td>
+        <td>ж</td>
+        <td>з</td>
+        <td>и</td>
+        <td>к</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td class="blue" rowspan="2"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td></td>
+        <td></td>
+        <td class="blue" rowspan="3"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="blue" colspan="2"></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="blue"></td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td class="blue" colspan="3"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="blue" colspan="4"></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="blue"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="blue"></td>
+        <td></td>
+        <td class="blue" rowspan="2"></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td></td>
+        <td class="blue"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+</body>
+</html>
